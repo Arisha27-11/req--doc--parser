@@ -1,0 +1,12 @@
+container: {type: ColumnPanel}
+components:
+- name: label_1
+  properties: {text: Upload Document}
+  type: Label
+  layout_properties: {grid_position: 'VWVGTX,RQHRJP'}
+- name: file_loader_1
+  properties: {bold: true}
+  type: FileLoader
+  layout_properties: {grid_position: 'VARKQX,YIXECB'}
+  event_bindings: {change: file_loader_1_change}
+is_package: true
